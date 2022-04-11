@@ -29,7 +29,7 @@ By executing the previous code, we get the following run times:
 
  -For the year 2018: 1.44 seconds
 
-     ![Run Time 2018](ola.png)
+    ![Run Time 2018](Coding_Module2_runTime2.png)
    
    
 
