@@ -23,14 +23,16 @@ Before ending this process, the outer loop prints in the spreadsheet the info of
 
 By executing the previous code, we get the following run times:
  -For the year 2017: 1.44 seconds
-     ![Run Time 2017](Coding_Module2_runTime1.PNG)
+     ![Run Time 2017](Coding_Module2_runTime1.png)
 
 
 
  -For the year 2018: 1.44 seconds
+
+     ![Run Time 2018](ola.png)
    
-    ![Run Time 2018](Coding_Module2_runTime2.PNG)
-    
+   
+
 
 ### Code programed for this Challenge
 
