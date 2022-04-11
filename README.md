@@ -18,7 +18,13 @@ The variable ticker is storing each value of the array of tickers, and the varia
 
 Both variables ticker and totalVolume are using the internal loop to go thru each row of the spreadsheet and by doing this we obtain the total volume and the Starting Price and Ending Price of each ticker.
 
+![Code Module 2](Coding_Module2_a.png)
+
+
 Before ending this process, the outer loop prints in the spreadsheet the info of each ticker: name with the variable ticker, daily volume with the variable totalVolume, and the return with the formula endingPrice / startPrice -1.
+
+![Code Module 2](Coding_Module2_b.png)
+
 
 
 By executing the previous code, we get the following run times:
@@ -28,40 +34,44 @@ By executing the previous code, we get the following run times:
 
 
  -For the year 2018: 1.44 seconds
+     ![Run Time 2018](Coding_Module2_runTime2.png)
 
-    ![Run Time 2018](Coding_Module2_runTime2.png)
+
    
    
 
 
 ### Code programed for this Challenge
 
-Unlike the previous code, we use three arrays to group the information for each ticker: total volume, starting price, ending price.
+Unlike the previous code, we use three arrays to group the information for each ticker: total volume, starting price, ending price. [VBA_Challenge](VBA_Challenge.xlsm).
 
 The variable tickerIndex was created with the value of cero, this variable will be executed in the beginning of each inner loop
 
 Unlike the previous code, in this optimized version we include 3 loops with the arrays:
   -The first loop is created to initialize the entire totalVolumes array to zero.
   -The second, a loop that runs through all the rows, the value of the array where the index is tickerIndex will be called and the totalVolume array will be fed in the same way with the StartingPrice and EndingPrice arrays.
+
+ ![Code Refactor](Coding_Refactor_a.png)
+
+
   -The third loop goes thru each of the arrays and prints in the spreadsheet the info of each ticker: name with the variable ticker, daily volume with the variable totalVolume, and the return with the formula endingPrice / startPrice -1.
+ 
+  ![Code Refactor](Coding_Refactor_b.png)
 
 
 By executing the previous code, we get the following run times:
  -For the year 2017: 0.21 seconds
+
+ ![Run Time 2017](Coding_Refactor_runTime1.png)
+
+
  -For the year 2018: 0.20 seconds
+
+ ![Run Time 2018](Coding_Refactor_runTime2.png)
 
 In conclusion, the refactoring of the code gave great results because it was executed in less time than the original code, with this we conclude that working with arrays was more efficient than working with pure individual variables.
 
 
-
-EXAMPLES LINKS
-
-This is on the sheet Theater Outcomes by Launch Date [Theater Outcomes](Kickstarter_Challenge.zip).
-
-
-
-
-  ![Graph Outcomes Goals](Outcomes_Based_on_Goals.png)
 
    
 
