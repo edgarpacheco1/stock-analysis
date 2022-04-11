@@ -79,23 +79,23 @@ In conclusion, the refactoring of the code gave great results because it was exe
 
 **- What are the advantages or disadvantages of refactoring code?**
 
-    - Adavantages
-      -Less RAM memory resources are used; fewer lines of code and variables can be optimized and arrays used instead
-      -The code runs and prints results faster
-      -We can have a better understanding of what the code does, reading it can be easier to understand.
-      -It helps finding errors more easily and quickly. As well as it helps for code maintenance in cases where adjustments are required.
+    - Advantages
+      - Less RAM memory resources are used; fewer lines of code and variables can be optimized and arrays used instead
+      - The code runs and prints results faster
+      - We can have a better understanding of what the code does, reading it can be easier to understand.
+      - It helps finding errors more easily and quickly. As well as it helps for code maintenance in cases where adjustments are required.
 
     - Disadvantages
-      -It helps finding errors more easily and quickly. As well as it helps for code maintenance in cases where adjustments are required.
-      -It can take a long time to optimize the code.
-      -During the refactoring process, new errors can be detected which will take time to be corrected.
+      - It helps finding errors more easily and quickly. As well as it helps for code maintenance in cases where adjustments are required.
+      - It can take a long time to optimize the code.
+      - During the refactoring process, new errors can be detected which will take time to be corrected.
 
 
 **- How do these pros and cons apply to refactoring the original VBA script?**
 
     -Pros
-     -The code runs faster and if you print results, they are also quickly displayed on the screen. We can see it in the differences in the execution times of this challenge, being the best code the one that we work with refactoring.
-     -We can have a better understanding of what the code does, reading it can be easier to understand. With the arrays theme, it makes it easier to read, as well as adding comments in certain parts of the code to know what is being done.
+     - The code runs faster and if you print results, they are also quickly displayed on the screen. We can see it in the differences in the execution times of this challenge, being the best code the one that we work with refactoring.
+     - We can have a better understanding of what the code does, reading it can be easier to understand. With the arrays theme, it makes it easier to read, as well as adding comments in certain parts of the code to know what is being done.
 
     -Cons
-     -It can take a long time to be optimizing the code. It requires making the settings carefully, being careful to know where and how to use the tickerIndex variable, doing the totalVolume calculation and carefully printing the results on the corresponding spreadsheet.
+     - It can take a long time to be optimizing the code. It requires making the settings carefully, being careful to know where and how to use the tickerIndex variable, doing the totalVolume calculation and carefully printing the results on the corresponding spreadsheet.
